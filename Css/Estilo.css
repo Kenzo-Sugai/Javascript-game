@@ -1,0 +1,141 @@
+body {
+    background-color: #290845;
+}
+
+.Navbarback {
+    background-color: darkslategray;
+    opacity: 50%;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.Navbar {
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.Navbar a, b {
+    text-decoration: none;
+    font-family: "Calibri";
+    top: 35px;
+    text-align: center;
+    position: relative;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 12px;
+    margin-left: 10px;
+    font-size: 20px;
+    left: 540px;
+}
+
+.navbar-shadow:hover {
+    font-family: "Calibri";
+    color: #7f2dbf;
+    text-decoration: none currentcolor solid;
+}
+
+.navbar-shadow:hover a {
+    text-shadow: 1px 1px 3px;
+    font-family: "Calibri";
+    color: #7f2dbf;
+    text-decoration: none currentcolor solid;
+}
+
+canvas {
+    position: relative;
+    left: 420px;
+    top: 100px;
+}
+
+.buttondesign {
+    left: 100px;
+    top: 340px;
+    position: absolute;
+    height: 70px;
+    width: 200px;
+    border: 2px black solid;
+    border-radius: 8px;
+    font-family: Calibri;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom right, #0d3372, #3460cb);
+}
+
+.buttondesign:hover {
+    background-image: linear-gradient(to bottom right, #1651b6, #5a7fd7);
+}
+
+.pontuacaodesign {
+    color: white;
+    border: black solid 2px;
+    border-radius: 8px;
+    position: absolute;
+    right: 100px;
+    top: 340px;
+    height: 70px;
+    width: 200px;
+    text-align: center;
+    font-size: 16pt;
+    font-family: Calibri;
+    background-image: linear-gradient(to bottom right, #790e2d, #cb3475);
+}
+
+.logo {
+    color: white;
+    font-family: Calibri;
+    border: black solid 2px;
+    border-radius: 8px;
+    padding: 5px;
+    position: relative;
+    width: 20%;
+    top: 80px;
+    text-align: center;
+    left: 533px;
+}
+
+.regras {
+    color: white;
+    font-family: Calibri;
+    border: black solid 2px;
+    border-radius: 8px;
+    padding: 5px;
+    position: relative;
+    left: 270px;
+    width: 60%;
+    top: 80px;
+}
+
+.regras li {
+    color: red;
+}
+
+.regras h4 {
+    color: white;
+}
+
+.info {
+    text-align: center;
+    color: white;
+    font-size: 14pt;
+    border: black 2px solid;
+    border-radius: 8px;
+    position: relative;
+    top: 80px;
+    text-decoration: none;
+    padding: 10px;
+    left: 320px;
+    width: 50%;
+}
+
+.botao {
+    left: 623px;
+    position: relative;
+    top: 85px;
+}
